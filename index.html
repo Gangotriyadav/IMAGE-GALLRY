@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#Baby-Images">Baby Images</a>
+        <a href="#Sister-Images">Sister Images</a>
+        <a href="#Friends-Images">Friends Images</a>
+      </nav>
+    </header>
+
+    <section id="home" class="image-section active">
+      <h2>Welcome to my image gallery</h2>
+    </section>
+
+    <section id="Baby-Images" class="image-section">
+      <h2>Baby Images</h2>
+      <div class="All-content">
+        <img src="5img.jpeg" alt="Baby Image 1" />
+        <img src="31img.jpeg" alt="Baby Image 2" />
+        <img src="8img.jpeg" alt="Baby Image 3" />
+        <img src="9img.jpeg" alt="Baby Image 4" />
+        <img src="4img.jpeg" alt="Baby Image 5" />
+        <img src="28img.jpeg" alt="Baby Image 6" />
+        <img src="27img.jpeg" alt="Baby Image 7" />
+        <img src="38img.jpeg" alt="Baby Image 8" />
+        <img src="5img.jpeg" alt="Baby Image 9" />
+      </div>
+    </section>
+
+    <section id="Sister-Images" class="image-section">
+      <h2>Sister Images</h2>
+      <div class="All-content">
+        <img src="2img.jpeg" alt="Sister Images 1" />
+        <img src="14img.jpeg" alt="Sister Images 2" />
+        <img src="24img.jpeg" alt="Sister Images 3" />
+        <img src="28img.jpeg" alt="Sister Images 4" />
+        <img src="38img.jpeg" alt="Sister Images 5" />
+        <img src="39img.jpeg" alt="Sister Images 6" />
+        <img src="22img.jpeg" alt="Sister Images 7" />
+        <img src="2img.jpeg" alt="Sister Images 8" />
+        <img src="18img.jpeg" alt="Sister Images9" />
+      </div>
+    </section>
+
+    <section id="Friends-Images" class="image-section">
+      <h2>Friends Images</h2>
+      <div class="All-content">
+        <img src="13img.jpeg" alt="Friends Images1" />
+        <img src="16img.jpeg" alt="Friends Images 2" />
+        <img src="12img.jpeg" alt="Friends Images 3" />
+        <img src="30img.jpeg" alt="Friends Images 4" />
+        <img src="20.jpeg" alt="Friends Images 5" />
+        <img src="21img.jpeg" alt="Friends Images 6" />
+        <img src="33img.jpeg" alt="Friends Images 7" />
+        <img src="35img.jpeg" alt="Friends Images 8" />
+        <img src="37img.jpeg" alt="Friends Images 9" />
+      </div>
+    </section>
+    <div id="lightbox" class="lightbox">
+      <span class="close">&times;</span>
+      <img class="lightbox-content" id="lightbox-img" />
+      <div class="caption" id="lightbox-caption"></div>
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
